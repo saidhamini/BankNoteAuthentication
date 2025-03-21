@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI endpoint
-FASTAPI_URL = "http://127.0.0.1:8000/predict"
+FASTAPI_URL = "https://banknoteauthentication.onrender.com/predict"
 
 st.title("📝 Bank Note Authentication")
 st.markdown("Enter the banknote features to predict if it is **Authentic or Fake**.")
